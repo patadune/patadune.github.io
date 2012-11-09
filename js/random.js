@@ -11,7 +11,7 @@ function loadFile(uri) {
 
 function processFile(fileContent) {
  var lines = fileContent.split('\n');
- alert('file contains ' + lines.length + ' lines');
+ document.writeln(lines[0]);
 }
 
 loadFile('http://re3m1.github.com/js/quotes.txt');
